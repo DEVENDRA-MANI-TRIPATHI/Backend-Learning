@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "full backend with multiple functionality",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "dev":"nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,5 +19,8 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
